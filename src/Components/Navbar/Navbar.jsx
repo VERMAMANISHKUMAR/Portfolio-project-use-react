@@ -5,7 +5,7 @@ const Navbar = () => {
    <div className='nav-wrapper'>
 
    <div className='nav-left'>
-          <div className='nav-name'>Andrew</div>
+          <div className='nav-name'>Manish</div>
           <span>toggle</span>
 
    </div>
@@ -20,7 +20,7 @@ const Navbar = () => {
                               <li>Testimonials</li>
                     </ul>
           </div>
-          <button className='button'> Contact us</button>
+          <button className='button newadd'>Contact</button>
    </div>
 
    </div>

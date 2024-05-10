@@ -1,0 +1,137 @@
+/* left side section */
+.intro{
+          display: flex;
+          height: 77vh;
+          margin-top: 6rem;
+}
+.i-left{
+          display: flex;
+          position: relative;
+          flex: 1;
+          flex-direction: column;
+          gap: 2rem;
+}
+.i-name{
+          display: flex;
+          flex-direction: column;
+}
+.i-name>:nth-child(1){
+          color:var(--black);
+          font-weight: bold;
+          font-size: 2rem;
+}
+.i-name>:nth-child(2){
+          color: var(--orange);
+          font-weight: bold;
+          font-size: 2.5rem;
+}
+.i-name>:nth-child(3){
+          font-weight: 100;
+          font-size: 14px;
+          color: var(--gray);
+          margin-top: 10px;
+}
+
+.i-button{
+          width: 6rem;        
+          height: 2rem;
+}
+.i-icons{
+          display: flex;
+          gap: 1rem;
+          margin-top: 2rem;
+}
+.i-icons>img{
+          width: 2rem;
+          height: 2rem;
+}
+img:hover{
+          cursor: pointer;
+          filter: brightness(0.3);
+          transition: all 0.5s ease;
+ 
+}
+
+/* right side section */
+.i-right{
+          flex: 1;
+          position: relative;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          
+}                   
+.i-right>img{
+          width: 17rem;
+          height: 20rem;
+          position: absolute;
+          top: 2rem;
+          right: 1rem;
+  
+          
+}
+.i-right>img:hover{
+          cursor: pointer;
+          filter: brightness(0.3);
+          transition: all 0.5s ease;
+}
+.i-right>:nth-child(4){
+          transform: scale(0.5);
+          top: -30%;
+          left: -24%;
+          border-radius: 50%;
+          margin-left: 50px;
+          
+          
+}
+.blur{
+          position: absolute;
+          width: 22rem;
+          height: 14rem;
+          border-radius: 50%;
+          background: #edd0ff;
+          filter: blur(212px);
+          z-index: -9;
+          top: -18%;
+          left: 56%;
+          filter: blur(72px);
+}         
+
+/* media queries */
+@media screen and (max-width: 480px) {
+          .intro{
+            flex-direction: column;
+            gap: 1rem;
+          }
+}                   
+
+@media screen and (max-width: 480px) {
+          .i-right{
+            display: none;
+          }
+}         
+
+@media screen and (max-width: 480px) {
+          .i-left{
+            gap: 1rem;
+          }
+}                             
+
+@media screen and (max-width: 480px) {
+          .i-name>:nth-child(1){
+            font-size: 1.5rem;
+          }
+}         
+
+@media screen and (max-width: 480px) {
+          .i-name>:nth-child(2){        
+            font-size: 2rem;
+          }
+}         
+
+@media screen and (max-width: 480px) {                      
+          .i-button{
+            width: 8rem;
+            height: 2.5rem;
+          }
+}

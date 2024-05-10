@@ -1,6 +1,12 @@
 //import { useEffect, useState } from 'react';
-import './App.css';
+
 import Navbar from './Components/Navbar/Navbar';
+import './App.css';
+import Intro from './Components/Intro/Intro';
+
+
+
+
 
 
 function App() {
@@ -11,6 +17,7 @@ function App() {
      
     <div className='App'>
     <Navbar/>
+    <Intro/>
    
     </div>
   );
