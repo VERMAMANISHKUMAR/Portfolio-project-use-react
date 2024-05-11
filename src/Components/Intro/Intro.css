@@ -45,12 +45,7 @@
           width: 2rem;
           height: 2rem;
 }
-img:hover{
-          cursor: pointer;
-          filter: brightness(0.3);
-          transition: all 0.5s ease;
- 
-}
+
 
 /* right side section */
 .i-right{
