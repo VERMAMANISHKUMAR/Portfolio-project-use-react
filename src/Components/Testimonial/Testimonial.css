@@ -1,77 +1,4 @@
-/* .t-wrapper{
 
-          background: rebeccapurple;
-
-
-}
-.t-heading{
-          align-self: start;
-}
-.t-heading>*{
-          font-size: 2rem;
-          font-weight: bold;
-}
-.t-heading span:nth-of-type(2){
-          color: var(--orange);
-}
-.t-blur1{
-          left:38rem;
-          top: 16px;
-}
-.t-blur2{
-          top: 9rem;
-          left: 0;
-}
-.testimonial{
-        
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          gap: 1rem;
-          flex-direction: column;
-          padding: 1rem;
-          border: 1px solid var(--gray);
-          border-radius: 10px;
-          box-shadow: 0 0 10px var(--gray);
-          background-color: var(--white);
-          width: 20rem;
-          height: 20rem; 
-          position: absolute;
-          z-index: 1;
-          top: 10rem;
-          left: 10rem;
-
-}
-.testimonial>img{
-          width: 6rem;
-          height: 6rem;
-          border-radius: 100%;
-
-}
-
-.testimonial>span{
-          color: var(--gray);
-}
-.swiper{
-          width: 100%;
-          height: 70%;
-}
-.swiper-slide{
-        width: 100%;
-          align-items: center;
-        
-}
-
-.t-wrapper{
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          flex-direction: column;
-          gap: 2rem;
-          margin-top: 7rem;
-          position: relative;
-}
- */
 .t-wrapper{
 
         padding: 0 3rem 0 3rem;
@@ -106,6 +33,7 @@
           align-items: center;
           justify-content: space-evenly;
           flex-direction: column;
+          margin-top: 5rem;
           padding: 2rem;
           width: 30rem;
           height: 15rem; 
@@ -113,13 +41,12 @@
           background: rgba(255 ,255,255,0.26);
           border: 7px solid var(--blueCard);
           box-shadow:var(--boxShadow)
+          
  }
  .testimonial>img{
           width: 6rem;
           height: 6rem;
           border-radius: 100%;
-          
-         
  }
  .testimonial>span{
           color: var(--gray);
@@ -135,3 +62,7 @@
          margin-top:2rem;
          
  }
+
+.t-wrapper .swiper-pagination-bullet-active{
+        background: var(--orange);
+}
