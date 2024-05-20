@@ -4,14 +4,14 @@
           justify-content:space-around;
           align-items: center;
           position: absolute;
-          right: -30px;
-          bottom: -10px;
-           margin-bottom: 360px;
+          right: -15px;
+          top: 100px;
+           /* margin-bottom: 360px; */
           z-index: 98888888;
           background-color: whitesmoke;
           
           border-radius: 10px;
-          padding: 0px 6px 8px 0px;
+          padding: 0px 18px 8px 0px;
        
 }
 
@@ -29,33 +29,7 @@
           font-size: 16px;
           margin-top: 10px;
 } 
-/* thumbup image */
-.thumbup{
-          display: flex;
-          justify-content:space-around;
-          align-items: center;
-          position: absolute;
-          right: -130px;
-          bottom: 30px !important;
-         
-          margin-right:390px;
-          background-color: whitesmoke;
-          border-radius: 10px;
-          padding: 0px 6px 8px 0px;
 
-}
-.thum{
-          transform: scale(1.0);
-          width: 2rem;
-          height: 2rem;   
-}
- .thumbup>span{          
-          color: var(--orange);
-          font-weight: bold;
-          font-family: sans-serif;
-          font-size: 16px;
-          margin-top: 10px;
-         
 
-}
+
 

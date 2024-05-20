@@ -7,9 +7,10 @@ const contact = () => {
     <div className='awesome'>
      <span>Get in touch </span>
      <span>Contact me</span>
-
+     <div className='blur c-blur2' style={{background:"skyblue"}}></div>
     </div>
     </div>
+    
     <div className='c-right'>
           <form >
             <input type="text" name="user" className="user" placeholder="Name" />
