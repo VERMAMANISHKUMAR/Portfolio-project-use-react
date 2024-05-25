@@ -14,4 +14,3 @@ const FloatingDiv = () => {
 }
 
 export default FloatingDiv
-// 50.2 minat of video
