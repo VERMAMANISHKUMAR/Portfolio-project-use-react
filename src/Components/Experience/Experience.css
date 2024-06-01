@@ -47,5 +47,26 @@
           font-weight: bold;
         
 }
+    /* Media Queries */
+    @media (max-width: 768px) {
+          .experience {
+            gap: 3rem; /* Reduce the gap between achievements */
+          }
+        }
+        
+        @media (max-width: 480px) {
+          .experience {
+            flex-direction: column; /* Change to a single column layout */
+            align-items: center;
+            gap: 1.5rem;
+            margin-top: 15rem;
+            margin-bottom: 15rem; /* Adjust margin */
+          }
+        
+          .achievement {
+            max-width: 100%; /* Allow each achievement to take full width */
+          }
+        }
+        
 
 

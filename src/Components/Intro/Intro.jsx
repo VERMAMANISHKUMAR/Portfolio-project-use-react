@@ -2,9 +2,11 @@ import React from 'react'
 import './Intro.css'
 import FloatingDiv from '../FloatingDiv/FloatingDiv'
 
+import {motion} from 'framer-motion'
 
 
 const Intro = () => {
+  const transition={duration :2, type:'spring'}
   return (
     <div className='intro'>
     <div className='i-left'>
@@ -27,18 +29,27 @@ const Intro = () => {
     <img src="img/Vector1.png" alt="icon is missing"/>
     <img src="img/Vector2.png" alt="icon is missing"/>
     <img src="img/boy.png" alt="icon is missing"/>
-    <img src="img/glassesimoji.png" alt="icon is missing"/>
+    <motion.img 
+    initial={{left:'-36%'}}
+    whileInView={{left:'-24%'}}
+    transition={transition}
+    
+    src="img/glassesimoji.png" alt="icon is missing"/>
          <div>
           <FloatingDiv/>
           </div>
-          <div className='thumbup'>
-     <img src="img/thumbup.png" alt="icon is missing" className='thum'/>
-      <span>
+          <motion.div 
+         initial={{ left: '20rem', top: '18rem' }}
+          whileInView={{ left: '14rem' }}
+          transition={transition}
+          className='thumbup'>
+       <img src="img/thumbup.png" alt="icon is missing" className='thum'/>
+       <span>
           Best Desing <br/>
           Award
       </span>
 
-     </div>
+     </motion.div>
      {/* Blur divs */}
      <div className='blur'style={{background:"rgb(238 210 255)"}}>
      </div>

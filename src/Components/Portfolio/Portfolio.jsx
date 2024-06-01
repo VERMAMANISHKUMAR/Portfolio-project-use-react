@@ -6,7 +6,7 @@ import 'swiper/css'
 
 const Portfolio = () => {
   return (
-    <div className='portfolio'>
+    <div className='portfolio' id="Portfolio">
     {/* heading */}
     <span>React Project</span><br/>
     <span>Portfolio</span>

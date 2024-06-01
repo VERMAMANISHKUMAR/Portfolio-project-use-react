@@ -1,10 +1,12 @@
 import React from 'react'
 import './Services.css'
 import Resume from './Resume.pdf'
+import { motion } from 'framer-motion';//this is the motion object that will be used MOTION object
 
 const Services = () => {
+  const transition={duration :2, type:'spring'}
   return (
-    <div className='services'>
+    <div className='services' id='Services'>
     {/* left side content */}
     <div className='awesome'>
     <span>My awesome</span>
@@ -20,7 +22,12 @@ ispum is simpley dummy text of printing
 
     </div>
     {/* Right side content */}
-    <div className='cards-1'>
+    <motion.div 
+    initial={{left:'-20%',top:'40rem',right:'30px'}}
+    whileInView={{left:'-5%'}}
+    transition={transition}
+    
+    className='cards-1'>
       <div>
        <img src="img/heartemoji.png" alt="icon is missing" className='heatemoji'/>
          <span>Detail</span><br/>
@@ -32,9 +39,15 @@ ispum is simpley dummy text of printing
          </div>
          <div className='blur s-blur2' style={{background:'var(--purple)'}}></div>
 
-    </div>
+    </motion.div>
 
-    <div className='cards-2'>
+    <motion.div 
+     initial={{ left: '10rem', top: '1.5rem'}}
+          whileInView={{ left: '-5rem' }}
+          transition={transition}
+    
+    
+    className='cards-2'>
       <div>
        <img src="img/Glasses.png" alt="icon is missing" className='Glasses'/>
          <span>Developer</span><br/>
@@ -46,9 +59,15 @@ ispum is simpley dummy text of printing
          </div>
          <div className='blur s-blur2' style={{background:'var(--purple)'}}></div>
 
-    </div>
+    </motion.div>
     {/* card -3 */}
-    <div className='cards-3'>
+    <motion.div 
+    initial={{left:'-20%',top:'35rem',right:'30px'}}
+    whileInView={{left:'13%'}}
+    transition={transition}
+    
+    
+    className='cards-3'>
       <div>
        <img src="img/Humble.png" alt="icon is missing" className='Humble'/>
          <span>UI/UX</span><br/>
@@ -61,7 +80,7 @@ ispum is simpley dummy text of printing
          </div>
          <div className='blur s-blur2' style={{background:'var(--purple)'}}></div>
 
-    </div>
+    </motion.div>
    
     </div>
   )
