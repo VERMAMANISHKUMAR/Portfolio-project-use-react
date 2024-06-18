@@ -42,7 +42,7 @@
           margin-top: 2rem;
 }
 /* socale media image left side */
-.i-icons>img{
+.i-icons>a>img{
           width: 2rem;
           height: 2rem;
 }

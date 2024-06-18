@@ -17,9 +17,11 @@ const Intro = () => {
     </div>
     <button className=' button i-button'>Hire me</button>
     <div className='i-icons'>
-    <img src="img/github.png" alt="icon is missing"/>
-    <img src="img/linkedin.png" alt="icon is missing"/>
-    <img src="img/instagram.png" alt="icon is missing"/>
+    
+    <a href="https://github.com/VERMAMANISHKUMAR"><img src="img/github.png" alt="icon is missing"/></a>
+    <a href="https://www.linkedin.com/in/manishverma25/"> <img src="img/linkedin.png" alt="icon is missing"/></a>
+    <a href="https://www.instagram.com/manish.kumarverma.90663894/"><img src="img/instagram.png" alt="icon is missing"/></a>
+ 
     
     </div>
 
