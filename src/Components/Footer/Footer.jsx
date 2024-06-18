@@ -16,10 +16,10 @@ const Footer = () => {
                     <div className='f-container'>
                      <span>Manish.sviet02@gmail.com</span>
                      <div className='f-icons'>
-                     <a href="#"><Insta color='white' size='3rem'/></a>
-                        <a href="#"><Fessbook color='white' size='3rem'/></a> 
-                        <a href="#"> <Github color='white' size='3rem'/></a>   
-                        <a href="#"> <Linkedln color='white' size='3rem'/></a> 
+                        <a href="https://www.instagram.com/manish.kumarverma.90663894/"><Insta color='white' size='3rem'/></a>
+                        <a href="https://www.facebook.com/profile.php?id=100085522317268&mibextid=ZbWKwL"><Fessbook color='white' size='3rem'/></a> 
+                        <a href="https://github.com/VERMAMANISHKUMAR"> <Github color='white' size='3rem'/></a>   
+                        <a href="https://www.linkedin.com/in/manishverma25/"> <Linkedln color='white' size='3rem'/></a> 
                           
                     </div>
                   

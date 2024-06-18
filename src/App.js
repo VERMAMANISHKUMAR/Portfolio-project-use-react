@@ -19,7 +19,7 @@ const darkMode=theme.state.darkMode;
   
   return (
     
-     
+    
     <div className='App'  style={{background: darkMode? 'black': " ", color:darkMode? 'white':''}}>
     <Navbar/>
     <Intro/>
@@ -30,7 +30,6 @@ const darkMode=theme.state.darkMode;
     <Testimonial/>
     <Email/>
     <Footer/>
-  
     </div>
   );
 }
