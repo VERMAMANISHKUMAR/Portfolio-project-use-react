@@ -7,10 +7,9 @@ const FloatingDiv = () => {
   return (
     <motion.div 
      initial={{ top: '5rem' }}
-      whileInView={{ right: '-50px' }}
+      whileInView={{ right: '-15px' }}
       transition={transition} // this transition is used
      
-
     className='floatingdiv'>
      <img src="img/crown.png" alt="icon is missing" className='corwn'/>
      <span>Web

@@ -12,8 +12,7 @@ const Services = () => {
     <span>My awesome</span>
     <span>services</span>
     <span>
-Lorem ispum is simpley dummy text of printing of printing Lorem<br/>
-ispum is simpley dummy text of printing
+    My Awesome Services offers expert web development solutions, <br/>including website design, front-end and back-end development,<br/> e-commerce, and maintenance. Our team ensures your site is <br/>responsive, user-friendly, and visually appealing, using the <br/>latest technologies to enhance your digital presence and <br/>achieve your business goals.
     </span>
     <a href={Resume} download>
     <button className='button s-button'>Download CV</button>

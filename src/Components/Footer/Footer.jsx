@@ -11,16 +11,16 @@ const Footer = () => {
 
     <div className='footer'>
 
-                <img src={Wave} alt=' ' style={{width:'100%'}}/>
+                <img src={Wave} alt=' ' style={{width:'100%',height:'400px'}}/>
 
-                  <div className='f-container'>
+                    <div className='f-container'>
                      <span>Manish.sviet02@gmail.com</span>
                      <div className='f-icons'>
                      <a href="#"><Insta color='white' size='3rem'/></a>
                         <a href="#"><Fessbook color='white' size='3rem'/></a> 
                         <a href="#"> <Github color='white' size='3rem'/></a>   
                         <a href="#"> <Linkedln color='white' size='3rem'/></a> 
-                            
+                          
                     </div>
                   
                     </div>

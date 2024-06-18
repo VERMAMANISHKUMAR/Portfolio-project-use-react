@@ -41,6 +41,7 @@
           gap: 1rem;
           margin-top: 2rem;
 }
+/* socale media image left side */
 .i-icons>img{
           width: 2rem;
           height: 2rem;
@@ -75,14 +76,14 @@
 }
 .blur{
           position: absolute;
-          width: 22rem;
+          width: 10rem;
           height: 14rem;
           border-radius: 50%;
           background: #edd0ff;
           filter: blur(212px);
           z-index: -9;
-          top: -18%;
-          left: 56%;
+         
+
           filter: blur(72px);
 }         
 /* thumbup image */
@@ -143,6 +144,9 @@
 
   .i-name > :nth-child(1) {
     font-size: 1.5rem;
+  }
+  .glassesimoji{
+    display: none;
   }
 
   .i-name > :nth-child(2) {

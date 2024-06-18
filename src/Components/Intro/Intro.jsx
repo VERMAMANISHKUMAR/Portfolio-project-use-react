@@ -13,7 +13,7 @@ const Intro = () => {
     <div className='i-name'>
           <span>Hy! I Am</span>
           <span>Manish Kumar Verma</span>
-          <span>Frontend Developer with high level of experience in web designing and development, <br/>producting the Quality work</span>
+          <span>Frontend Developer with high level of experience in web designing and development, <br/>producting the Quality work in <br/>Seeking Full Stack Web Developer Role Proficient in HTML5, CSS, Bootstrap, <br/>JavaScript, React, Node.js, Express, MySQL, WordPress, and PHP.</span>
     </div>
     <button className=' button i-button'>Hire me</button>
     <div className='i-icons'>
@@ -34,7 +34,7 @@ const Intro = () => {
     whileInView={{left:'-24%'}}
     transition={transition}
     
-    src="img/glassesimoji.png" alt="icon is missing"/>
+    src="img/glassesimoji.png" alt="icon is missing" className='glassesimoji'/>
          <div>
           <FloatingDiv/>
           </div>
